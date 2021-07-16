@@ -1,0 +1,132 @@
+h1{
+    text-align:center;
+}
+
+.flex-container{
+   display:flex;
+   flex-direction:row;
+   justify-content:space-evenly;
+   flex-wrap:nowrap; 
+}
+.box1{
+   border:1px solid blue;
+  margin:10px;
+ 
+}
+.box2{
+   border:1px solid black;
+   margin:10px;   
+}
+.box3{
+   border:1px solid black;
+   margin:10px 
+}
+.chickenbox{
+   float:right;
+   border: 1px solid black;
+   padding:10px;
+   background-color: blue;
+}
+.beefbox{
+   float:right;
+   border: 1px solid black;
+   padding :10px;
+   background-color: white;
+   
+}
+ .sushibox{
+   float:right;
+   border: 1px solid black;
+   padding:10px;
+   background-color: red;
+}
+
+.flex-container>div:nth-child(1){
+   background-color: coral; 
+}
+.flex-container>div:nth-child(2){
+   background-color: coral; 
+}
+.flex-container>div:nth-child(3){
+   background-color: coral; 
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+   .flex-container{
+   display:flex;
+   flex-direction:row;
+   justify-content:space-between;
+   flex-wrap:wrap; 
+}
+.box1{
+   border:1px solid blue;
+   width:47%;
+     
+}
+.box2{
+   border:1px solid black;  
+   width:47%;
+}
+.box3{
+   border:1px solid black;
+   margin-top:10px   
+}
+.chickenbox{
+   float:right;
+   border: 1px solid black;
+   padding:10px;
+   background-color: blue;
+}
+.beefbox{
+   float:right;
+   border: 1px solid black;
+   padding :10px;
+   background-color: white;   
+}
+ .sushibox{
+   float:right;
+   border: 1px solid black;
+   padding:10px;
+   background-color: red;
+}
+}
+
+@media screen and (max-width:767px){
+   .flex-container{
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+   flex-wrap:nowrap; 
+}
+.box1{
+   border:1px solid blue;
+   
+   
+
+}
+.box2{
+   border:1px solid black;  
+
+}
+.box3{
+   border:1px solid black;
+   margin-top:10px; 
+}
+.chickenbox{
+   float:right;
+   border: 1px solid black;
+   padding:10px;
+   background-color: blue;
+}
+.beefbox{
+   float:right;
+   border: 1px solid black;
+   padding :10px   
+}
+ .sushibox{
+   float:right;
+   border: 1px solid black;
+   padding:10px;
+   background-color: red;
+}
+}
